@@ -1,0 +1,75 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+body{ background-color: #70ABFF;
+}
+h1{ text-align: center;}
+h2{ font-size: 6rem;
+       text-align: center;
+       color: green;
+}
+.container{ background-color: #FFFFFF;
+            margin: 2rem;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-top: 50%;
+            box-shadow: 0rem 0rem 0.5rem black;
+}
+.btns-counter{ display: flex;
+              gap: 1rem;
+}
+button{ width: 6rem;
+        height: 3rem;
+        font-size: 1rem;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        box-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+#decrease{ background-color: #0015FF;
+           padding: 0.2rem;
+}
+#increase{ background-color: #0015FF;
+           padding: 0.2rem;
+}
+#reset{ background-color: #FF0000;
+        padding: 0.2rem;
+}
+#increase:hover{ background-color: #0312B7;
+}
+#reset:hover{ background-color: #D70000;
+}
+#decrease:hover{ background-color: #0312B7;
+}
+
+.initial-set{ display: flex;
+              justify-content: space-around;
+              padding-top: 1rem;
+              gap: 1rem;
+}
+input{ border-radius: 1rem;
+       border: 2px solid;
+       padding-left: 1rem;
+       font-size: 16px;
+       outline: none;
+       width : 8rem;
+       height: 3rem;
+}
+::placeholder{
+              color: #000;
+}
+#initial-btn{ width: 8rem;
+              background-color: green;
+              padding: 0.2rem;
+ 
+}
+p{ text-align: center;
+   font-size: 1rem;
+   padding-top: 1rem;
+ 
+}
